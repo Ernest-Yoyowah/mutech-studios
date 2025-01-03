@@ -107,6 +107,7 @@ const NavbarAndHero = () => {
                     ...(item === "Contact" && {
                       padding: "12px 42px",
                       bgcolor: "#02AA69",
+                      // width: "100%",
                       borderRadius: "60px",
                     }),
                   }}
