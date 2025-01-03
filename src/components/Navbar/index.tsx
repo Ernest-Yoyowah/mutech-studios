@@ -35,6 +35,9 @@ const NavbarAndHero = () => {
         display: "flex",
         justifyContent: { md: "space-between", xs: "flex-start" },
         flexDirection: "column",
+        // backgroundImage: "url('your-image-url-here')", // Add your image URL
+        // backgroundSize: "cover", // Ensures the image covers the full area
+        // backgroundPosition: "center",
       }}
     >
       {/* Navbar Section */}
