@@ -37,7 +37,6 @@ const NavbarAndHero = () => {
         flexDirection: "column",
         // backgroundImage: "url('your-image-url-here')", // Add your image URL
         // backgroundSize: "cover", // Ensures the image covers the full area
-        // backgroundPosition: "center",
       }}
     >
       {/* Navbar Section */}
