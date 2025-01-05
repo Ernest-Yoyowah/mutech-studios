@@ -222,7 +222,7 @@ const NavbarAndHero = () => {
         <Box
           sx={{
             textAlign: { xs: "left", md: "left" },
-            padding: { xs: "40px 0", md: "80px 0" },
+            padding: { xs: "0 40px 0 0", md: "80px 0" },
             width: { xs: "100%", md: "70%" },
           }}
         >
@@ -284,18 +284,18 @@ const NavbarAndHero = () => {
         </Box>
         <Box
           sx={{
-            display: "flex",
+            display: { md: "flex", xs: "flex" },
             flexDirection: { xs: "column", md: "row" }, // Stacks vertically on small screens, horizontally on medium+
-            justifyContent: { md: "flex-end", xs: "center" }, // Align right on medium screens, center on small
+            justifyContent: { md: "flex-end", xs: "flex-start" }, // Align right on medium screens, center on small
             alignItems: "flex-end", // Ensures the content is centered vertically
-            // bgcolor: "red", // Add background color for testing
-            width: "30%", // Ensure it takes full width of its container
+            // bgcolor: "red", // Add  background color for testing
+            width: { md: "30%", xs: "70%" }, // Ensure it takes full width of its container
             height: "80%",
           }}
         >
           <Image
             src={bgImage}
-            width={300} // Adjust image size
+            width={300}
             height={300}
             alt="bg image"
             style={{ objectFit: "contain" }} // Adjust image display within container
