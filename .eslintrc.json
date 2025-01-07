@@ -1,6 +1,15 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "semi": [2, "always"]
+    // "semi": [2, "always"]
+    // "jsx": [2, "never"]
+    // "quotes": [2, "double"],
+    // "react/function-component-definition": [
+    //   "error",
+    //   {
+    //     "namedComponents": "arrow-function",
+    //     "unnamedComponents": "arrow-function"
+    //   }
+    // ]
   }
 }
